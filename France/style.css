@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 33vw 33vw 34vw;
+    grid-template-rows: 100vh;
+}
+.LeftSide{
+    background-color: rgb(0, 85, 164);
+}
+.MiddleSection{
+    background-color: rgb(255, 255, 255);
+}
+.RightSide{
+    background-color: rgb(239, 65, 53);
+}
